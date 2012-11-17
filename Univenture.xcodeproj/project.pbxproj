@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168103F01658016F00AA3A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168103EF1658016F00AA3A8C /* UIKit.framework */; };
+		168103F21658016F00AA3A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168103F11658016F00AA3A8C /* Foundation.framework */; };
+		168103F41658016F00AA3A8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168103F31658016F00AA3A8C /* CoreGraphics.framework */; };
+		168103FA1658016F00AA3A8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 168103F81658016F00AA3A8C /* InfoPlist.strings */; };
+		168103FC1658016F00AA3A8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168103FB1658016F00AA3A8C /* main.m */; };
+		168104001658016F00AA3A8C /* UVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 168103FF1658016F00AA3A8C /* UVAppDelegate.m */; };
+		168104021658016F00AA3A8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 168104011658016F00AA3A8C /* Default.png */; };
+		168104041658016F00AA3A8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 168104031658016F00AA3A8C /* Default@2x.png */; };
+		168104061658016F00AA3A8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 168104051658016F00AA3A8C /* Default-568h@2x.png */; };
+		168104091658016F00AA3A8C /* UVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168104081658016F00AA3A8C /* UVViewController.m */; };
+		1681040C1658016F00AA3A8C /* UVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1681040A1658016F00AA3A8C /* UVViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		168103EB1658016F00AA3A8C /* Univenture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Univenture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168103EF1658016F00AA3A8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		168103F11658016F00AA3A8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		168103F31658016F00AA3A8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		168103F71658016F00AA3A8C /* Univenture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Univenture-Info.plist"; sourceTree = "<group>"; };
+		168103F91658016F00AA3A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		168103FB1658016F00AA3A8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		168103FD1658016F00AA3A8C /* Univenture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Univenture-Prefix.pch"; sourceTree = "<group>"; };
+		168103FE1658016F00AA3A8C /* UVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UVAppDelegate.h; sourceTree = "<group>"; };
+		168103FF1658016F00AA3A8C /* UVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UVAppDelegate.m; sourceTree = "<group>"; };
+		168104011658016F00AA3A8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		168104031658016F00AA3A8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		168104051658016F00AA3A8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		168104071658016F00AA3A8C /* UVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UVViewController.h; sourceTree = "<group>"; };
+		168104081658016F00AA3A8C /* UVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UVViewController.m; sourceTree = "<group>"; };
+		1681040B1658016F00AA3A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UVViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168103E81658016F00AA3A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168103F01658016F00AA3A8C /* UIKit.framework in Frameworks */,
+				168103F21658016F00AA3A8C /* Foundation.framework in Frameworks */,
+				168103F41658016F00AA3A8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168103E01658016F00AA3A8C = {
+			isa = PBXGroup;
+			children = (
+				168103F51658016F00AA3A8C /* Univenture */,
+				168103EE1658016F00AA3A8C /* Frameworks */,
+				168103EC1658016F00AA3A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		168103EC1658016F00AA3A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168103EB1658016F00AA3A8C /* Univenture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168103EE1658016F00AA3A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				168103EF1658016F00AA3A8C /* UIKit.framework */,
+				168103F11658016F00AA3A8C /* Foundation.framework */,
+				168103F31658016F00AA3A8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		168103F51658016F00AA3A8C /* Univenture */ = {
+			isa = PBXGroup;
+			children = (
+				168103FE1658016F00AA3A8C /* UVAppDelegate.h */,
+				168103FF1658016F00AA3A8C /* UVAppDelegate.m */,
+				168104071658016F00AA3A8C /* UVViewController.h */,
+				168104081658016F00AA3A8C /* UVViewController.m */,
+				1681040A1658016F00AA3A8C /* UVViewController.xib */,
+				168103F61658016F00AA3A8C /* Supporting Files */,
+			);
+			path = Univenture;
+			sourceTree = "<group>";
+		};
+		168103F61658016F00AA3A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				168103F71658016F00AA3A8C /* Univenture-Info.plist */,
+				168103F81658016F00AA3A8C /* InfoPlist.strings */,
+				168103FB1658016F00AA3A8C /* main.m */,
+				168103FD1658016F00AA3A8C /* Univenture-Prefix.pch */,
+				168104011658016F00AA3A8C /* Default.png */,
+				168104031658016F00AA3A8C /* Default@2x.png */,
+				168104051658016F00AA3A8C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168103EA1658016F00AA3A8C /* Univenture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1681040F1658016F00AA3A8C /* Build configuration list for PBXNativeTarget "Univenture" */;
+			buildPhases = (
+				168103E71658016F00AA3A8C /* Sources */,
+				168103E81658016F00AA3A8C /* Frameworks */,
+				168103E91658016F00AA3A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Univenture;
+			productName = Univenture;
+			productReference = 168103EB1658016F00AA3A8C /* Univenture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168103E21658016F00AA3A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UV;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Maijid Moujaled";
+			};
+			buildConfigurationList = 168103E51658016F00AA3A8C /* Build configuration list for PBXProject "Univenture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 168103E01658016F00AA3A8C;
+			productRefGroup = 168103EC1658016F00AA3A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168103EA1658016F00AA3A8C /* Univenture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168103E91658016F00AA3A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168103FA1658016F00AA3A8C /* InfoPlist.strings in Resources */,
+				168104021658016F00AA3A8C /* Default.png in Resources */,
+				168104041658016F00AA3A8C /* Default@2x.png in Resources */,
+				168104061658016F00AA3A8C /* Default-568h@2x.png in Resources */,
+				1681040C1658016F00AA3A8C /* UVViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168103E71658016F00AA3A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168103FC1658016F00AA3A8C /* main.m in Sources */,
+				168104001658016F00AA3A8C /* UVAppDelegate.m in Sources */,
+				168104091658016F00AA3A8C /* UVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		168103F81658016F00AA3A8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168103F91658016F00AA3A8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1681040A1658016F00AA3A8C /* UVViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1681040B1658016F00AA3A8C /* en */,
+			);
+			name = UVViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1681040D1658016F00AA3A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1681040E1658016F00AA3A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168104101658016F00AA3A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Univenture/Univenture-Prefix.pch";
+				INFOPLIST_FILE = "Univenture/Univenture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		168104111658016F00AA3A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Univenture/Univenture-Prefix.pch";
+				INFOPLIST_FILE = "Univenture/Univenture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168103E51658016F00AA3A8C /* Build configuration list for PBXProject "Univenture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1681040D1658016F00AA3A8C /* Debug */,
+				1681040E1658016F00AA3A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1681040F1658016F00AA3A8C /* Build configuration list for PBXNativeTarget "Univenture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168104101658016F00AA3A8C /* Debug */,
+				168104111658016F00AA3A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168103E21658016F00AA3A8C /* Project object */;
+}
