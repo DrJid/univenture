@@ -9,6 +9,7 @@
 #import "UVAppDelegate.h"
 
 #import "UVViewController.h"
+#import "AllVenturesViewController.h"
 
 @implementation UVAppDelegate
 
@@ -16,8 +17,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[UVViewController alloc] initWithNibName:@"UVViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+//    self.viewController = [[UVViewController alloc] initWithNibName:@"UVViewController" bundle:nil];
+      self.allVenturesViewController = [[AllVenturesViewController alloc] initWithNibName:@"AllVenturesViewController" bundle:nil];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.allVenturesViewController];
+  
+
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
